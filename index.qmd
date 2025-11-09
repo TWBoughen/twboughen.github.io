@@ -69,6 +69,14 @@ about:
 
 I'm a third year PhD student at Newcastle university, my research is focussed on applying extreme value methods to network data. One example being the observed deviation from the power law in real network degree distributions.
 
+## Topics of interest
+
+- Preferential attachment
+- Extremes
+- Network vulnerabilities
+- Bayesian statistics
+
+
 
 ## Education
 
