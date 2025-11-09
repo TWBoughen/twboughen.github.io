@@ -6,19 +6,11 @@ title-block-banner: false
 
 <center>
 
-**Quarto Academic**
+**Thomas Boughen**
 
-School
+Newcastle University
 
-College
-
-University
-
-Address: 
-
-Phone: 
-
-E-mail: 
+E-mail: t.w.boughen1@newcastle.ac.uk
 
 
 </center>

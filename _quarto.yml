@@ -7,9 +7,9 @@ description-meta: "Quarto Academic Website Template adapted by Dr. Gang He"
 author-meta: "Dr. Gang He"
 
 website:
-  title: "Quarto Academic"
+  title: "Thomas Boughen"
   image: "https://quarto.org/quarto.png"
-  description: "Quarto Academic Website Template adapted by Dr. Gang He"
+  description: "Personal website for Thomas Boughen"
  
   navbar:
     background: light  # You can change the background color here
@@ -19,34 +19,32 @@ website:
 #        href: index.qmd
       - text: About
         menu:
-          - text: News
-            href: posts.qmd#category=news
-          - text: Events
-            href: posts.qmd#category=event      
+          # - text: News
+          #   href: posts.qmd#category=news
+          # - text: Events
+          #   href: posts.qmd#category=event      
           - text: Contact
             href: contact.qmd             
       - text: Research
         menu:
-          - text: List of Publications
+          - text: Papers
             href: publications.qmd
-          - text: Selected Papers
-            href: posts.qmd#category=paper
-          - text: Grants
-            href: projects.qmd                                
-      - text: Teaching # Comment the Teaching part out to remove the Teaching page
-        href: teaching.qmd
+          # - text: Selected Papers
+          #   href: posts.qmd#category=paper
+          # - text: Grants
+          #   href: projects.qmd                                
       - text: Outreach
-        menu:        
-        - text: Presentations
-          href: posts.qmd#category=presentation                   
-      - text: Group   # Comment the Group part out to remove the Group page
+        # menu:        
+        # - text: Presentations
+        #   href: posts.qmd#category=presentation                   
+      - text: People   # Comment the Group part out to remove the Group page
         href: people.qmd
 
     right: 
       - text: CV
         href: files/nsf-biosketch.pdf
       - icon: github
-        href: https://github.com/drganghe/quarto-academic-website-template
+        href: https://github.com/TWBoughen
         target: _blank
       - text: "{{< fa brands bluesky >}}"
         href: https://bsky.app
@@ -58,11 +56,11 @@ website:
   page-navigation: true
   
   page-footer: 
-    left: "[Your Name](http://www.github.com) &copy; <script>document.write(new Date().getFullYear())</script>" 
-    center: "Build on [Quart Academic Website Template](https://github.com/drganghe/quarto-academic-website-template) adapted by [Dr. Gang He](http://drganghe.github.io)"
+    left: "[Thomas Boughen](http://www.github.com) &copy; <script>document.write(new Date().getFullYear())</script>" 
+    center: "Built on [Quart Academic Website Template](https://github.com/drganghe/quarto-academic-website-template)"
     right:  
       - icon: github
-        href: https://github.com/drganghe/quarto-academic-website-template
+        href: https://github.com/TWBoughen
         target: _blank
       - text: "{{< fa brands bluesky >}}" 
         href: https://bsky.app
@@ -97,7 +95,7 @@ bibliography: references.bib  # Add references.bib to the root folder to enable 
 
 format:
   html:
-    theme: cosmo
+    theme: solar
     css: styles.css
     toc: true
     footnotes-hover: true

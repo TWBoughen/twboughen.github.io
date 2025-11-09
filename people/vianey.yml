@@ -1,0 +1,10 @@
+    - path: /
+      image: "/files/profiles/profile1.JPG"
+      title: "Vianey Palacios Ramirez"
+      lastname: "Palacios Ramirez"
+#      author: 
+      subtitle: "Supervisor"
+#      date: "2024-03-12"
+      categories: [Supervisor] 
+      started: "2023"
+      ended: "-"

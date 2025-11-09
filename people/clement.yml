@@ -1,0 +1,10 @@
+    - path: https://clement-lee.github.io/
+      image: "/files/profiles/profile1.JPG"
+      title: "Clement Lee"
+      lastname: "Lee"
+#      author: 
+      subtitle: "Supervisor"
+#      date: "2024-03-12"
+      categories: [Supervisor] 
+      started: "2023"
+      ended: "-"
